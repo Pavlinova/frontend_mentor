@@ -19,12 +19,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](n)
+- Solution URL: [GitHub](https://github.com/Pavlinova/frontend_mentor/tree/main/qr-code-component)
 - Live Site URL: [Vercel](https://qr-code-component-main-eight.vercel.app/)
 
 ## Author
 
-- Website - [Tatiana Pavlinova](https://github.com/Pavlinova)
 - Frontend Mentor - [@Pavlinova](https://www.frontendmentor.io/profile/Pavlinova)
 
 
