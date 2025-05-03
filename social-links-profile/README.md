@@ -19,8 +19,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Pavlinova/social-links-profile)
-- Live Site URL: [](https://pavlinova.github.io/social-links-profile/)
+- Solution URL: [GitHub](https://github.com/Pavlinova/frontend_mentor/tree/main/social-links-profile)
+- Live Site URL: [Vercel](https://frontend-mentor-pttw.vercel.app/)
 
 ## Author
 
