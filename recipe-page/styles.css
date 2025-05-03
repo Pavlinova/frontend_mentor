@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Outfit", sans-serif;
+  }
+  
+  body {
+	background: #f3eae3;
+	color: #382f2a;
+	line-height: 1.6;
+	padding: 20px;
+  }
+  
+  .container {
+	background: white;
+	max-width: 700px;
+	margin: auto;
+	border-radius: 16px;
+	padding: 24px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .hero-image {
+	width: 100%;
+	border-radius: 12px;
+	margin-bottom: 20px;
+  }
+  
+  h1 {
+	font-family: "Young Serif", serif;
+	font-size: 2rem;
+	margin-bottom: 10px;
+  }
+  
+  .intro {
+	margin-bottom: 20px;
+  }
+  
+  .time-box {
+	background: #fff7fc;
+	padding: 15px;
+	border-radius: 12px;
+	margin-bottom: 20px;
+  }
+  
+  .time-box h2 {
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+  }
+  
+  .time-box ul {
+	list-style: disc inside;
+  }
+  
+  .ingredients,
+  .instructions {
+	margin-bottom: 20px;
+	padding-left: 20px;
+  }
+  
+  .instructions li {
+	margin-bottom: 10px;
+  }
+  
+  table.nutrition {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+  }
+  
+  table.nutrition td {
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  table.nutrition td:first-child {
+	font-weight: bold;
+  }
+  
+  /* 📱 Media Query for Mobile (320px and up) */
+  @media screen and (max-width: 480px) {
+	h1 {
+	  font-size: 1.5rem;
+	}
+  
+	.container {
+	  padding: 16px;
+	}
+  
+	.time-box {
+	  font-size: 0.95rem;
+	}
+  
+	.instructions li {
+	  font-size: 0.95rem;
+	}
+  }
+  
