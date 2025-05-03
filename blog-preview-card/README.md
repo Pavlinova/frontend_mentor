@@ -27,12 +27,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Pavlinova/frontend_mentor/tree/main/blog-preview-card)
+- Live Site URL: [Vercel](https://frontend-mentor-three-pink.vercel.app/)
 
 ## Author
 
-- Website - [Tatiana Pavlinova](https://www.your-site.com)
 - Frontend Mentor - [@Pavlinova](https://www.frontendmentor.io/profile/Pavlinova)
 
 ## Acknowledgments
