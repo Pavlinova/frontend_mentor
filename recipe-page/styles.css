@@ -1,26 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
+:root {
+
+	font-size: 16px;
+   
+	--White: hsl(0, 0%, 100%);
+	--Stone-100: hsl(30, 54%, 90%);
+	--Stone-150: hsl(30, 18%, 87%);
+	--Stone-600: hsl(30, 10%, 34%);
+	--Stone-900: hsl(24, 5%, 18%);
+	--Brown-800: hsl(14, 45%, 36%);
+	--footer-color-link: #3e52a3;
+    --footer-color: #555;
+  
+	--Rose-800: hsl(332, 51%, 32%);
+	--Rose-50: hsl(330, 100%, 98%);
+	  
+	--spacing-base: 4px;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: "Outfit", sans-serif;
-  }
+	  }
   
   body {
-	background: #f3eae3;
-	color: #382f2a;
+	background: var(--Stone-100);
+	color: var(--Stone-600);
 	line-height: 1.6;
-	padding: 20px;
+	padding: 40px;
   }
   
   .container {
-	background: white;
+	background: var(--White);
 	max-width: 700px;
 	margin: auto;
+	padding: 36px;
 	border-radius: 16px;
-	padding: 24px;
-	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
   .hero-image {
@@ -31,8 +49,17 @@
   
   h1 {
 	font-family: "Young Serif", serif;
+	font-weight: 400;
 	font-size: 2rem;
 	margin-bottom: 10px;
+	color: var(--Stone-900);
+  }
+
+  h2 {
+	font-family: "Young Serif", serif;
+	font-weight: 400;
+	color: var(--Brown-800);
+	margin-bottom: 0.5em;
   }
   
   .intro {
@@ -40,13 +67,19 @@
   }
   
   .time-box {
-	background: #fff7fc;
-	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background: var(--Rose-50);
+	padding: 24px;
 	border-radius: 12px;
 	margin-bottom: 20px;
   }
   
   .time-box h2 {
+	color: var(--Rose-800);
+	font-family: "Outfit", sans-serif;
+	font-weight: 600;
 	font-size: 1.1rem;
 	margin-bottom: 10px;
   }
@@ -62,40 +95,105 @@
   }
   
   .instructions li {
+	font-size: 1rem;
 	margin-bottom: 10px;
   }
+
+  ul li::marker, ol li::marker {
+    color: var(--Brown-800);
+  }
+
+  ol li::marker {
+	font-weight: 700;
+  }
   
+  ul li, ol li {
+    padding-left: 0.5em; 
+  }
+
+  li{
+	margin-bottom: 0.5em;
+  }
+
   table.nutrition {
 	width: 100%;
 	border-collapse: collapse;
 	margin-top: 10px;
+
   }
   
   table.nutrition td {
 	padding: 10px 0;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid var(--Stone-150);
+  }
+
+  table.nutrition tr:last-child td {
+	border-bottom: none;
   }
   
   table.nutrition td:first-child {
-	font-weight: bold;
+	padding-left: 2em;
+  }
+
+  table.nutrition td:last-child {
+	color: var(--Brown-800);
+	font-weight: 600;
+  }
+
+  hr {
+	border: none;
+	border-top: 1px solid var(--Stone-150);
+	margin: 1.5em 0;    
+  }
+
+  footer {
+	bottom: calc(var(--spacing-base) *2);
+	width: 100%;
+	text-align:center;
+	font-size: 1em;
+	margin-top: 40px;
+  padding: 20px 0;
+	color: var(--footer-color);
   }
   
-  /* 📱 Media Query for Mobile (320px and up) */
-  @media screen and (max-width: 480px) {
-	h1 {
-	  font-size: 1.5rem;
-	}
+  footer a {
+	color: var(--footer-color-link);
+	text-decoration: none;
+  }
   
+  footer a:hover {
+	text-decoration: underline;
+  }
+
+/* 📱 Media Query for Mobile (320px and up) */
+@media screen and (max-width: 480px) {
+	
+
+	body{
+		padding: 0;
+	}
+
 	.container {
-	  padding: 16px;
+		width: 100%;
+		padding: 24px;
 	}
-  
+
+	.hero-image {
+		width: 100vw;
+		margin-left: -24px;
+		margin-right: -24px;
+		margin-top: -24px;
+		object-fit: cover;
+		display: block;
+		border-radius: 0;
+	  }
+
 	.time-box {
-	  font-size: 0.95rem;
+		font-size: 0.95rem;
 	}
-  
+
 	.instructions li {
-	  font-size: 0.95rem;
+		font-size: 0.95rem;
 	}
-  }
+}
   
