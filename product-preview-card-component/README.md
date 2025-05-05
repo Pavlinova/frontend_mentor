@@ -23,8 +23,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Pavlinova/frontend_mentor/tree/main/product-preview-card-component)
+- Live Site URL: [Vercel](https://product-preview-card-component-snowy-pi.vercel.app/)
 
 
 ## Author
