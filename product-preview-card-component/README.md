@@ -19,7 +19,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Screenshot
 
 ![Desktop](/desktop_active.jpg)
-![Mobile](/mobile.jpg)
 
 ### Links
 
