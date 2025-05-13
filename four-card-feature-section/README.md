@@ -19,8 +19,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Pavlinova/frontend_mentor/tree/main/four-card-feature-section)
+- Live Site URL: [Vercel](https://four-card-feature-section-pi-sepia.vercel.app/)
 
 ## Author
 
